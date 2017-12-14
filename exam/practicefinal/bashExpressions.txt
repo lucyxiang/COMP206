@@ -1,0 +1,5 @@
+cp *.??[Cc] ./Sol1/
+cat *[Bb][Oo][Bb]*
+chmod 020 $(find $1 *DOC*)
+
+grep -c "[Bb][Oo][Bb]"

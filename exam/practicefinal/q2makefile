@@ -1,0 +1,25 @@
+program: P1.o P2.o P3.o
+gcc -c program P1.o P2.o P3.o
+
+P1.o: main.c database.c menu.h
+gcc -c main.c database.c
+
+P2.o: menu.c divide+conquer.c p3.h database.h
+gcc -c menu.c divide+conquer.c
+
+P3.o: fact.c fib.c csv.c library.c
+gcc -c fact.c fib.c csv.c library.c
+
+backup:
+mkdir -p mpbackup
+cp *.c mybackup
+cp *.h mybackup
+
+clean:
+rm *.o
+
+
+#ifndef HEADER_H
+#define HEADHER_H
+\\code
+#endif

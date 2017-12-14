@@ -1,0 +1,97 @@
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+
+void findRecord(char *filename, char *name, char record[]){
+  char c;
+
+  FILE *f = fopen(filename, "r");
+  if (f==NULL)exit(1); //terminates with error
+
+  printf("hhh");
+  printf("%s",f);
+
+  while(!feof(f)){
+    while(fgetc(f) != ','){
+      c=c + fgetc(f);
+    }
+
+     if (strstr(c, name) != NULL) {
+       for(int i=0; fgetc(f) != '\0'; i++){
+       record [i]= fgetc(f);
+     }
+    }
+
+  }
+    fclose(f);
+}
+
+void replace(char *name, char *newname, char record[]){
+
+	char recordCopy [1000];
+  record[0] = record[0] - (newname-name);
+  recordCopy[0]=record[0];
+
+  while(*newname != '\0'){
+	  for(int i=0; i<999; i++){
+    recordCopy [i]= *newname;
+    newname++;
+	  }
+  }
+}
+
+void saveRecord(char *filename, char *name, char record[]){
+  FILE *f = fopen(filename, "wt");
+  if (f==NULL) exit(1); //terminates with error
+
+  char c;
+
+  while(!feof(f)){
+    while(fgetc(f) != ','){
+      c=c + fgetc(f);
+    }
+
+     if (strstr(c, name) != NULL) {
+       fputs(record, *filename);
+     }
+    }
+    fclose(f);
+}
+
+int main (void){
+
+
+char *name;
+char *newname;
+char *filename;
+
+name = (char*)malloc(256);
+newname = (char*)malloc(256);
+filename = (char*)malloc(256);
+char record [1000];
+
+
+printf("Filename: ");
+scanf("%s", filename);
+
+printf("Name: ");
+scanf("%s", name);
+
+printf("Newname: ");
+scanf("%s", newname);
+
+printf("%s",filename);
+
+if(fopen(filename, "r")){
+	  printf("%s", *record);
+  findRecord(filename, name, record);
+
+  //replace(name, *newname, record);
+
+  //saveRecord(filename, *name, record);
+}
+else{
+  printf("FILE NOT FOUND");
+}
+
+}

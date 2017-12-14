@@ -1,0 +1,76 @@
+commit 6afb57e70bd92a30cb5818257a157cc7ff43093d
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Wed Dec 6 12:47:50 2017 -0500
+
+    Program works
+
+commit 4a0c04b59f4146177774f06abb30c4bf007acf8c
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Wed Dec 6 12:20:41 2017 -0500
+
+    Finished Debugging; mostly works
+
+commit 3449e8f5b174ee52cd5028cac6386b4b3ee3b2e9
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Tue Dec 5 21:46:06 2017 -0500
+
+    Finished main, producer, and consumer
+
+commit d21a4efea719f14c209fc1cf4978e71c100aa5d0
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Tue Dec 5 16:14:06 2017 -0500
+
+    Finished producer, consumer, and main; now to test
+
+commit f3c6bba399b4b0e08f6dd487714eb9b7285f4bf2
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Tue Dec 5 16:13:28 2017 -0500
+
+    Added TURN and DATA
+
+commit 788e6f33aa0c98ef49c7e6acc43821c2f2ab9dad
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Tue Dec 5 13:31:28 2017 -0500
+
+    Basic format for the main and functions
+commit e2e846515255d0628e2201a8b783e1c04bdd3890
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Wed Dec 6 17:04:34 2017 -0500
+
+    Added partner's producer to my program
+
+commit 6afb57e70bd92a30cb5818257a157cc7ff43093d
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Wed Dec 6 12:47:50 2017 -0500
+
+    Program works
+
+commit 4a0c04b59f4146177774f06abb30c4bf007acf8c
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Wed Dec 6 12:20:41 2017 -0500
+
+    Finished Debugging; mostly works
+
+commit 3449e8f5b174ee52cd5028cac6386b4b3ee3b2e9
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Tue Dec 5 21:46:06 2017 -0500
+
+    Finished main, producer, and consumer
+
+commit d21a4efea719f14c209fc1cf4978e71c100aa5d0
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Tue Dec 5 16:14:06 2017 -0500
+
+    Finished producer, consumer, and main; now to test
+
+commit f3c6bba399b4b0e08f6dd487714eb9b7285f4bf2
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Tue Dec 5 16:13:28 2017 -0500
+
+    Added TURN and DATA
+
+commit 788e6f33aa0c98ef49c7e6acc43821c2f2ab9dad
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Tue Dec 5 13:31:28 2017 -0500
+
+    Basic format for the main and functions

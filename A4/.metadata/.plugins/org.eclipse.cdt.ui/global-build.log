@@ -1,0 +1,321 @@
+20:56:16 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+20:56:20 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+20:56:25 **** Incremental Build of configuration Debug for project replace ****
+make all 
+Building file: ../replace.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"replace.d" -MT"replace.o" -o "replace.o" "../replace.c"
+../replace.c:12:15: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct __sFILE *') [-Wformat]
+  printf("%s",f);
+          ~~  ^
+../replace.c:19:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:54:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:55:22: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'FILE *' (aka 'struct __sFILE *') [-Wint-conversion]
+       fputs(record, *filename);
+                     ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h:246:54: note: passing argument to parameter here
+int      fputs(const char * __restrict, FILE * __restrict) __DARWIN_ALIAS(fputs);
+                                                         ^
+4 warnings generated.
+Finished building: ../replace.c
+ 
+Building target: replace
+Invoking: MacOS X C Linker
+gcc  -o "replace"  ./replace.o   
+Finished building target: replace
+ 
+20:56:47 **** Incremental Build of configuration Debug for project replace ****
+make all 
+Building file: ../replace.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"replace.d" -MT"replace.o" -o "replace.o" "../replace.c"
+../replace.c:12:15: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct __sFILE *') [-Wformat]
+  printf("%s",f);
+          ~~  ^
+../replace.c:19:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:54:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:55:22: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'FILE *' (aka 'struct __sFILE *') [-Wint-conversion]
+       fputs(record, *filename);
+                     ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h:246:54: note: passing argument to parameter here
+int      fputs(const char * __restrict, FILE * __restrict) __DARWIN_ALIAS(fputs);
+                                                         ^
+4 warnings generated.
+Finished building: ../replace.c
+ 
+Building target: replace
+Invoking: MacOS X C Linker
+gcc  -o "replace"  ./replace.o   
+Finished building target: replace
+ 
+20:57:20 **** Incremental Build of configuration Debug for project replace ****
+make all 
+Building file: ../replace.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"replace.d" -MT"replace.o" -o "replace.o" "../replace.c"
+../replace.c:12:15: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct __sFILE *') [-Wformat]
+  printf("%s",f);
+          ~~  ^
+../replace.c:19:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:54:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:55:22: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'FILE *' (aka 'struct __sFILE *') [-Wint-conversion]
+       fputs(record, *filename);
+                     ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h:246:54: note: passing argument to parameter here
+int      fputs(const char * __restrict, FILE * __restrict) __DARWIN_ALIAS(fputs);
+                                                         ^
+4 warnings generated.
+Finished building: ../replace.c
+ 
+Building target: replace
+Invoking: MacOS X C Linker
+gcc  -o "replace"  ./replace.o   
+Finished building target: replace
+ 
+20:57:36 **** Incremental Build of configuration Debug for project replace ****
+make all 
+Building file: ../replace.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"replace.d" -MT"replace.o" -o "replace.o" "../replace.c"
+../replace.c:12:15: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct __sFILE *') [-Wformat]
+  printf("%s",f);
+          ~~  ^
+../replace.c:19:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:54:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:55:22: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'FILE *' (aka 'struct __sFILE *') [-Wint-conversion]
+       fputs(record, *filename);
+                     ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h:246:54: note: passing argument to parameter here
+int      fputs(const char * __restrict, FILE * __restrict) __DARWIN_ALIAS(fputs);
+                                                         ^
+4 warnings generated.
+Finished building: ../replace.c
+ 
+Building target: replace
+Invoking: MacOS X C Linker
+gcc  -o "replace"  ./replace.o   
+Finished building target: replace
+ 
+20:57:47 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+21:00:47 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+21:21:18 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+21:21:23 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+21:21:52 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+21:22:46 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+21:22:47 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+21:22:51 **** Incremental Build of configuration Debug for project replace ****
+make all 
+make: Nothing to be done for `all'.
+21:23:10 **** Incremental Build of configuration Debug for project replace ****
+make all 
+Building file: ../replace.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"replace.d" -MT"replace.o" -o "replace.o" "../replace.c"
+../replace.c:12:15: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct __sFILE *') [-Wformat]
+  printf("%s",f);
+          ~~  ^
+../replace.c:19:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:54:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:55:22: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'FILE *' (aka 'struct __sFILE *') [-Wint-conversion]
+       fputs(record, *filename);
+                     ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h:246:54: note: passing argument to parameter here
+int      fputs(const char * __restrict, FILE * __restrict) __DARWIN_ALIAS(fputs);
+                                                         ^
+4 warnings generated.
+Finished building: ../replace.c
+ 
+Building target: replace
+Invoking: MacOS X C Linker
+gcc  -o "replace"  ./replace.o   
+Finished building target: replace
+ 
+21:23:55 **** Incremental Build of configuration Debug for project replace ****
+make all 
+Building file: ../replace.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"replace.d" -MT"replace.o" -o "replace.o" "../replace.c"
+../replace.c:12:15: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct __sFILE *') [-Wformat]
+  printf("%s",f);
+          ~~  ^
+../replace.c:19:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:54:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:55:22: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'FILE *' (aka 'struct __sFILE *') [-Wint-conversion]
+       fputs(record, *filename);
+                     ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h:246:54: note: passing argument to parameter here
+int      fputs(const char * __restrict, FILE * __restrict) __DARWIN_ALIAS(fputs);
+                                                         ^
+4 warnings generated.
+Finished building: ../replace.c
+ 
+Building target: replace
+Invoking: MacOS X C Linker
+gcc  -o "replace"  ./replace.o   
+Finished building target: replace
+ 
+21:24:42 **** Incremental Build of configuration Debug for project replace ****
+make all 
+Building file: ../replace.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"replace.d" -MT"replace.o" -o "replace.o" "../replace.c"
+../replace.c:12:15: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct __sFILE *') [-Wformat]
+  printf("%s",f);
+          ~~  ^
+../replace.c:19:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:21:15: error: subscripted value is not an array, pointer, or vector
+       record [i]= fgetc(f);
+       ~~~~~~ ^~
+../replace.c:54:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:55:22: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'FILE *' (aka 'struct __sFILE *') [-Wint-conversion]
+       fputs(record, *filename);
+                     ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h:246:54: note: passing argument to parameter here
+int      fputs(const char * __restrict, FILE * __restrict) __DARWIN_ALIAS(fputs);
+                                                         ^
+../replace.c:83:28: warning: incompatible pointer to integer conversion passing 'char [1000]' to parameter of type 'char' [-Wint-conversion]
+findRecord(filename, name, record);
+                           ^~~~~~
+../replace.c:5:50: note: passing argument to parameter 'record' here
+void findRecord(char *filename, char *name, char record){
+                                                 ^
+5 warnings and 1 error generated.
+make: *** [replace.o] Error 1
+21:24:51 **** Incremental Build of configuration Debug for project replace ****
+make all 
+Building file: ../replace.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"replace.d" -MT"replace.o" -o "replace.o" "../replace.c"
+../replace.c:12:15: warning: format specifies type 'char *' but the argument has type 'FILE *' (aka 'struct __sFILE *') [-Wformat]
+  printf("%s",f);
+          ~~  ^
+../replace.c:19:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:54:17: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'const char *'; take the address with & [-Wint-conversion]
+     if (strstr(c, name) != NULL) {
+                ^
+                &
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/string.h:89:26: note: passing argument to parameter '__big' here
+char    *strstr(const char *__big, const char *__little);
+                            ^
+../replace.c:55:22: warning: incompatible integer to pointer conversion passing 'char' to parameter of type 'FILE *' (aka 'struct __sFILE *') [-Wint-conversion]
+       fputs(record, *filename);
+                     ^~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/include/stdio.h:246:54: note: passing argument to parameter here
+int      fputs(const char * __restrict, FILE * __restrict) __DARWIN_ALIAS(fputs);
+                                                         ^
+4 warnings generated.
+Finished building: ../replace.c
+ 
+Building target: replace
+Invoking: MacOS X C Linker
+gcc  -o "replace"  ./replace.o   
+Finished building target: replace
+ 

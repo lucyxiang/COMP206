@@ -1,0 +1,123 @@
+commit a14192b861012221f80fc1665bfc248b48340e9e
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Fri Nov 24 18:35:02 2017 -0500
+
+    Finish files and tested basic cases; still need to test more rigurously
+
+commit afd31099a12c442efa67b450701df458dfdd80eb
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Fri Nov 24 18:14:49 2017 -0500
+
+    Corrected and renamed make to makefile
+
+commit 32c0f7296b775d78863074db9633546965e05e95
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Fri Nov 24 18:13:58 2017 -0500
+
+    Finish debug list.c
+
+commit ecaaa61b57c5a6b0f5f5444ec95997fab7fa319d
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Thu Nov 23 17:14:16 2017 -0500
+
+    Finished list.c and updated main.c
+
+commit 03132fe25000b7f6a8f5ad5663d17f093b7bc19b
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Thu Nov 23 16:57:25 2017 -0500
+
+    added makefile
+
+commit 56023b184c7d08b35a4d78aad50759a05eecea3b
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Thu Nov 23 16:30:38 2017 -0500
+
+    First a5 commit, did list.h and list.c
+commit f24a3716d5e0816e74c543ff8231e808869d0493
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Sat Nov 25 23:56:42 2017 -0500
+
+    Added comments and cleaned up
+
+commit a14192b861012221f80fc1665bfc248b48340e9e
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Fri Nov 24 18:35:02 2017 -0500
+
+    Finish files and tested basic cases; still need to test more rigurously
+
+commit afd31099a12c442efa67b450701df458dfdd80eb
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Fri Nov 24 18:14:49 2017 -0500
+
+    Corrected and renamed make to makefile
+
+commit 32c0f7296b775d78863074db9633546965e05e95
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Fri Nov 24 18:13:58 2017 -0500
+
+    Finish debug list.c
+
+commit ecaaa61b57c5a6b0f5f5444ec95997fab7fa319d
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Thu Nov 23 17:14:16 2017 -0500
+
+    Finished list.c and updated main.c
+
+commit 03132fe25000b7f6a8f5ad5663d17f093b7bc19b
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Thu Nov 23 16:57:25 2017 -0500
+
+    added makefile
+
+commit 56023b184c7d08b35a4d78aad50759a05eecea3b
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Thu Nov 23 16:30:38 2017 -0500
+
+    First a5 commit, did list.h and list.c
+commit 2a258e2b61b1766471c362e90b29252ee43da7d2
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Sat Nov 25 23:59:03 2017 -0500
+
+    Found error in makefile
+
+commit f24a3716d5e0816e74c543ff8231e808869d0493
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Sat Nov 25 23:56:42 2017 -0500
+
+    Added comments and cleaned up
+
+commit a14192b861012221f80fc1665bfc248b48340e9e
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Fri Nov 24 18:35:02 2017 -0500
+
+    Finish files and tested basic cases; still need to test more rigurously
+
+commit afd31099a12c442efa67b450701df458dfdd80eb
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Fri Nov 24 18:14:49 2017 -0500
+
+    Corrected and renamed make to makefile
+
+commit 32c0f7296b775d78863074db9633546965e05e95
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Fri Nov 24 18:13:58 2017 -0500
+
+    Finish debug list.c
+
+commit ecaaa61b57c5a6b0f5f5444ec95997fab7fa319d
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Thu Nov 23 17:14:16 2017 -0500
+
+    Finished list.c and updated main.c
+
+commit 03132fe25000b7f6a8f5ad5663d17f093b7bc19b
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Thu Nov 23 16:57:25 2017 -0500
+
+    added makefile
+
+commit 56023b184c7d08b35a4d78aad50759a05eecea3b
+Author: Lucy Xiang <sam.lucy.xiang@gmail.com>
+Date:   Thu Nov 23 16:30:38 2017 -0500
+
+    First a5 commit, did list.h and list.c
