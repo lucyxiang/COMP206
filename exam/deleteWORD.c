@@ -5,41 +5,30 @@
 
 void delete(){
   FILE *input, *output;
-  char c;
-  char ptr1*, *ptr2;
   char *word="WORD";
-  char buffer [2000];
+  char buffer [100];
 
-  input=fopen("test.txt", "rt");
+  input=fopen("input.txt", "rt");
   output=fopen("output.txt", "wt");
   if (input==0 || output==0){
     exit(1);
   }
 
-  fgets(buffer,1999,inFile);
-
-  if(strstr(buffer, word)==null){
-    q=fopen("output.txt", "wt");
-    if (q==0){
-      exit(1);
+  fscanf(input, "%s", buffer);
+  do{
+    if(strstr(buffer, word)==NULL){
+      fputs(buffer, output);
+      printf("%s \n",buffer );
     }
-    pointer=buffer;
-    c=pointer;
+  fscanf(input, "%s", buffer);
+  }while(!feof(input));
 
-    do{
-      fputc(q, c);
-      pointer++;
-      c=pointer;
-    }while(c!=null);
-  }
-  else(){
-
-
-  }
-
-
+  fclose(input);
+  fclose(output);
 
 }
+
 int main(){
-  dele
+  delete();
+  return 0;
 }

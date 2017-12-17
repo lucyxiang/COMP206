@@ -1,0 +1,8 @@
+1 --> cp *.??c ./Sol1/
+
+2 --> cat $(grep -i -l -r BOB) >> dump.txt
+
+3 -->  Q3 in separate bash file. This is just bonus in case you need to find file with DOC in its name --> chmod 777 $(find *DOC*)
+
+4 --> grep -i -c BOB dump.txt
+
